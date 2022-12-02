@@ -9,6 +9,7 @@
         height:100px;
 }
 .hero h1{
+    display: inline-block;
     font-size:5rem;
     font-family: 'Playfair Display', serif;
 }
@@ -188,7 +189,12 @@ h1 span{
 }
 
 @media screen and (max-width: 768px) {
-    
+    .hero{
+        margin-bottom: 150px;
+    }
+    .spacer{
+        margin: 0;
+    }
     .slide-content {
         margin: 0 10px;
     }
@@ -197,6 +203,9 @@ h1 span{
     }
     .swiper-navBtn {
         display: none;
+    }
+    .hero h1{
+        font-size:3rem;
     }
 }
 
@@ -286,4 +295,25 @@ h2 {
 .l-footer h1 img{
     width: 100px;
     height: 100px;
+}
+.spacer{
+
+    margin-top: -300px;
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat:no-repeat ;
+    background-position:center ;
+    background-size: cover;
+}
+.layer1{
+    background-image:url("./space.png") ;
+}
+.spacer2{
+    width: 100%;
+    background-repeat:no-repeat ;
+    background-position:center ;
+    background-size: cover;
+}
+.layer2{
+    background-image:url("./space2.png") ;
 }
