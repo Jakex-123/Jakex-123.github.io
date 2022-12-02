@@ -308,12 +308,3 @@ h2 {
 .layer1{
     background-image:url("images/space.png") ;
 }
-.spacer2{
-    width: 100%;
-    background-repeat:no-repeat ;
-    background-position:center ;
-    background-size: cover;
-}
-.layer2{
-    background-image:url("./space2.png") ;
-}
