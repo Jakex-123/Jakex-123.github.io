@@ -188,15 +188,22 @@ h1 span{
     background-color: #023047;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     .hero{
-        margin-bottom: 150px;
+        margin-bottom: 12rem;
+    }
+    .team{
+        margin-top: 6.25rem;
     }
     .spacer{
         margin: 0;
     }
+    .layer2{
+        margin: 0;
+    }
     .slide-content {
-        margin: 0 10px;
+        margin: 0.2rem 0.625rem;
+        padding: 0.2rem;
     }
     .swiper-button-next,.swiper-button-prev{
         visibility: hidden;
@@ -297,8 +304,7 @@ h2 {
     height: 100px;
 }
 .spacer{
-
-    margin-top: -300px;
+    margin-top: -350px;
     aspect-ratio: 960/300;
     width: 100%;
     background-repeat:no-repeat ;
@@ -307,4 +313,13 @@ h2 {
 }
 .layer1{
     background-image:url("images/space.png") ;
+}
+.layer2{
+    margin-bottom: -300px;
+        aspect-ratio: 960/300;
+        width: 100%;
+        background-repeat:no-repeat ;
+        background-position:center ;
+        background-size: cover;
+    background-image:url("images/space2.png") ;
 }
