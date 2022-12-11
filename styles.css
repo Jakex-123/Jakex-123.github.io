@@ -9,7 +9,7 @@
         height:100px;
 }
 .hero{
-    background-image:url(./Subtle.jpg) ;
+    background-image:url("images/Subtle.jpg");
 }
 .hero h1{
     display: inline-block;
