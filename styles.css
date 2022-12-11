@@ -8,6 +8,9 @@
         width: 100px;
         height:100px;
 }
+.hero{
+    background-image:url(./Subtle.jpg) ;
+}
 .hero h1{
     display: inline-block;
     font-size:5rem;
@@ -190,13 +193,23 @@ h1 span{
 
 @media screen and (max-width: 900px) {
     .hero{
-        margin-bottom: 12rem;
+        margin-bottom: 15rem;
+    }
+    .hero{
+    background:linear-gradient(rgba(188, 185, 177, 0.225),rgba(0, 0, 0, 0.373)),url("images/back.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    aspect-ratio: 500/450;
+    }
+    .x{
+        display: none;
     }
     .team{
         margin-top: 6.25rem;
     }
     .spacer{
-        margin-top: 30px;
+        margin: 0;
     }
     .layer2{
         margin: 0;
@@ -312,14 +325,24 @@ h2 {
     background-size: cover;
 }
 .layer1{
-    background-image:url("images/space.png") ;
+    background-image:url("images/spacer.png") ;
 }
 .layer2{
     margin-bottom: -300px;
-        aspect-ratio: 960/300;
+        aspect-ratio: 900/300;
         width: 100%;
         background-repeat:no-repeat ;
         background-position:center ;
         background-size: cover;
     background-image:url("images/space2.png") ;
+}
+.x{
+    background:url("images/back.jpg");
+    background-size: cover;
+    background-repeat:no-repeat ;
+    border-radius:100% ;
+    filter: drop-shadow(8px 9px 12px rgba(0, 0, 0, 0.464));
+    aspect-ratio: 500/450;
+    width: 31.25rem;
+    height:28.125rem ;
 }

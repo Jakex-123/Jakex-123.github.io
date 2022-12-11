@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 let tl=gsap.timeline({
   scrollTrigger:{
-    trigger:".about",
-    start:"top center",
+    trigger:".spacer",
+    start:"top top",
     end:"bottom bottom",
     toggleActions:"restart none none reset"
   }
@@ -35,7 +35,7 @@ tl.from(".x1",{y:-300,opacity:0,duration:1})
 
 var swiper = new Swiper(".slide-content", {
   slidesPerView: 3,
-  spaceBetween: 25,
+  spaceBetween: 15,
   loop: true,
   centerSlide: 'true',
   fade: 'true',
@@ -52,13 +52,13 @@ var swiper = new Swiper(".slide-content", {
 
   breakpoints:{
       0: {
-          slidesPerView: 1,
+          slidesPerView: 1.1,
       },
       520: {
           slidesPerView: 2,
       },
       950: {
-          slidesPerView: 3,
+          slidesPerView: 3.1,
       },
   },
 });
